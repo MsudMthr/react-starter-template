@@ -1,0 +1,17 @@
+html {
+  direction: ltr;
+}
+
+html, body, #app {
+  height: 100%;
+  width: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+@import "bootstrap/scss/bootstrap";
+
+@import "reboot";
